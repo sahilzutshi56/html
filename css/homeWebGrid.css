@@ -27,9 +27,6 @@ main{
 #homeitem>div{
     border: 1px solid blue;
 }
-#szlogocontainer{
-    justify-self: end;
-}
 #szlogo{
     display: inline-block;
     width: 150px;
@@ -38,9 +35,6 @@ main{
     background-position: 50% 50%;
     background-size: cover;
     border-radius: 50%;
-}
-#hometext{
-    justify-self: start;
 }
 .projectlogo{
     display: inline-block;
