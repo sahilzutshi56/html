@@ -48,7 +48,7 @@ main{
     display: inline-block;
 }
 .projectimg{
-    width: 70px;
+    width: 69px;
 }
 header, footer{
     border: 0px solid red;
@@ -80,8 +80,8 @@ section{
     color: #fff;
     padding: 0.5em;
     display: grid;
-    grid: auto-flow 1fr / repeat(auto-fill,minmax(120px,min-content));
-    row-gap: 0.5em;
+    grid: auto-flow min-content / repeat(auto-fill,minmax(120px,min-content));
+    row-gap: 1em;
     justify-content: center;
     align-content: center;
     justify-items: center;
