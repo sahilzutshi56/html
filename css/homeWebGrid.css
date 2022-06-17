@@ -78,9 +78,10 @@ section{
 #project{
     background-color: #000;
     color: #fff;
-    padding: 2em;
+    padding: 0.5em;
     display: grid;
-    grid: auto-flow 1fr / repeat(auto-fit,minmax(120px,min-content));
+    grid: auto-flow 1fr / repeat(auto-fill,minmax(120px,min-content));
+    row-gap: 0.5em;
     justify-content: center;
     align-content: center;
     justify-items: center;
@@ -93,6 +94,19 @@ section{
     align-self: center;
     grid-column: 1 / -1;
     white-space: nowrap;
+    align-self: end;
+}
+#projectlogocontainer{
+    color: #fff;
+    grid-column: 1 / -1;
+    display: grid;
+    grid: auto-flow 1fr / repeat(auto-fit,minmax(120px,min-content));
+    justify-content: center;
+    align-content: center;
+    justify-items: center;
+    align-items: center;
+    width: 100%;
+    align-self: start;
 }
 .projectlogo{
     border: 0px solid yellow;
