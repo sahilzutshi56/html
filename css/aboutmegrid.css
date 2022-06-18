@@ -126,7 +126,7 @@ footer{
 }
 nav{
     display: grid;
-    grid:auto-flow 1fr / repeat(auto-fit,minmax(200px, min-content));
+    grid:auto-flow 1fr / repeat(auto-fit,minmax(110px, min-content));
     row-gap: 1px;
     column-gap: 1%;
     justify-content: center;
