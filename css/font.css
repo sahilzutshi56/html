@@ -1,0 +1,90 @@
+*{
+    font-family: 'Courier New', Courier, monospace;
+    font-size:clamp(1.2rem, 1vw + 0.7rem, 3.5rem) ;
+    color: #000;
+    
+    font-family: elza-text,sans-serif;
+    font-style: normal;
+    letter-spacing: 1.5px;
+}
+
+.font , .fonta , .fontp {
+    font-size:clamp(1.2rem, 1vw + 0.7rem, 3.5rem) ;
+    margin: 0px; 
+    padding: 0px;
+}
+
+.fonth6{
+    font-size:clamp(1.2rem, 1.2vw + 0.9rem, 3rem) ;
+    margin: 0vh; 
+    padding: 0px;
+    display: block;
+    font-weight: 200;    
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+.fonth5{
+    font-size:clamp(1.4rem, 1.6vw + 1rem, 3.6rem) ;
+    margin: 0px; 
+    padding: 0px;
+    display: block;
+    font-weight: 300;    
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+.fonth4{
+    font-size:clamp(1.6rem, 1.8vw + 1rem, 3.8rem) ;
+    margin: 0px; 
+    padding: 0px;
+    display: block;
+    font-weight: 400;    
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+.fonth3{
+    font-size:clamp(2rem, 2.2vw + 1rem, 4.2rem) ;
+    margin: 0px; 
+    padding: 0px;
+    display: block;
+    font-weight: 500;    
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+.fonth2{
+    font-size:clamp(2.4rem, 2.6vw + 1rem, 4.6rem) ;
+    margin: 0px; 
+    padding: 0px;
+    display: block;
+    font-weight: 600;    
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+.fonth1{
+    font-size:clamp(3rem, 2.8vw + 1rem, 4.8rem) ;
+    margin: 0px; 
+    padding: 0px;
+    display: block;
+    font-weight: 700;    
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+.fontp{
+    font-weight: 500;
+    margin: 0px; 
+    padding: 0px;
+    text-align: justify;
+    text-justify: inter-word;
+    display: block;
+    letter-spacing: 1.2px;
+}
+
+.fonta{
+    text-decoration: none;
+    font-weight: 700;    
+}

@@ -1,8 +1,6 @@
 html ,body{
     box-sizing: border-box;
     height: 100%;
-    font-family: 'Courier New', Courier, monospace;
-    font-size: 1.4rem;
     background-color: #000;
 }
 main{
@@ -13,7 +11,6 @@ main{
 }
 
 #homeitem{
-    font-size: 1.6rem;
     height: 100%;
     display: grid;
     grid: auto-flow 1fr / repeat(auto-fit,minmax(320px,1fr));
@@ -89,6 +86,7 @@ section{
 }
 #projecttext{
     border: 0px solid red;
+    color: #fff;
     width: 100%;
     text-align: center;
     align-self: center;
@@ -115,14 +113,6 @@ section{
 footer{
     background-color: #707070;
     color: #fff;
-}
-.textheader1{
-    font-size: 1.6rem;
-    font-size: clamp(1vh,1.6rem,4vw);
-}
-.textheader2{
-    font-size: clamp(1vh,2rem,5vw);
-    font-weight:500 ;
 }
 #blog{
     height: 100%;
