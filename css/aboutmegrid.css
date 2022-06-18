@@ -1,8 +1,6 @@
 html ,body{
     box-sizing: border-box;
     height: 100%;
-    font-family: 'Courier New', Courier, monospace;
-    font-size: 1.4rem;
     background-color: #fff;
 }
 main{
@@ -12,13 +10,6 @@ main{
     grid-template-rows: 1fr;
 }
 
-.textheader1{
-    font-size: 1.4rem;
-}
-.textheader2{
-    font-size: 1.6rem;
-    font-weight:500;
-}
 #profile{
     background-color: #fff;
     grid-column: 1 / 2;
@@ -52,7 +43,7 @@ main{
 
 #profile{
     display: grid;
-    grid-template-rows: 1fr auto 1fr;
+    grid-template-rows: 1fr auto auto/;
 }
 header{
     border: 0px solid red;
@@ -95,19 +86,38 @@ header{
    text-align: center;
 }
 article{
-    border: 1px solid red;
+    border: 0px solid red;
 }
 footer{
-    border: 1px solid red;
+    border: 0px solid red;
+    display: grid;
+    grid: auto-flow 1fr / repeat(auto-fit,minmax(300px,max-content));
+    column-gap: 1em;
+    justify-content: center;
+    align-content: center;
+    justify-items: start;
+    align-items: center;
+
 }
 #npi{
     width: 100%;
     height: 100%;
 }
-#npi>nav{
+nav{
     background-color: red;
+    display: grid;
+    grid: auto-flow 1fr / repeat(auto-fit,minmax(300px,max-content));
+    justify-content: space-around;
+    align-content: space-around;
+    justify-items: center;
+    align-items: center;
 }
-
+.nav{
+    border: 1px solid #000;
+    height: 100%;
+    width: 100%;
+    background-color: yellow;
+}
 #project{
     background-color: #000;
     color: #fff;
@@ -122,6 +132,7 @@ footer{
 }
 #projecttext{
     border: 0px solid red;
+    color: #fff;
     width: 100%;
     text-align: center;
     align-self: center;
