@@ -117,13 +117,6 @@ footer{
     text-align: center;
 
 }
-@media (max-width: 750px) {
-    #projectpreview{
-        height: 0px;
-        display: none;
-    }
-
-}
 nav{
     display: grid;
     grid:auto-flow 1fr / repeat(auto-fit,minmax(110px, min-content));
@@ -205,4 +198,31 @@ nav{
 }
 .projectimg{
     width: 69px;
+}
+#projectpreview{
+    width: 100%;
+    display: grid;
+    grid: auto-flow 1fr / repeat(auto-fit,minmax(300px , 1fr));
+    gap: 0em;
+    justify-content:center;
+    align-content: center;
+}
+.projectinstance{
+    border: 0px solid #000;
+}
+#pi1{background-image: url('../images/project/preview/1.jpg'); background-size: cover;}
+#pi2{background-image: url('../images/project/preview/2.jpg'); background-size: cover;}
+#pi3{background-image: url('../images/project/preview/3.jpg'); background-size: cover;}
+#pi4{background-image: url('../images/project/preview/4.jpg'); background-size: cover;}
+#pi5{background-image: url('../images/project/preview/5.jpg'); background-size: cover;}
+#pi6{background-image: url('../images/project/preview/6.jpg'); background-size: cover;}
+#pi7{background-image: url('../images/project/preview/7.jpg'); background-size: cover;}
+#pi8{background-image: url('../images/project/preview/8.jpg'); background-size: cover;}
+#pi9{justify-self: center; align-self: center;}
+@media (max-width: 1000px) {
+    #projectpreview{
+        height: 0px;
+        display: none;
+    }
+
 }
