@@ -124,6 +124,10 @@ footer{
 }
 #blogtextheader{
     border: 0px solid red;
+    color: #fff;
+}
+#blogtext{
+    color: #fff;
 }
 article{
     border: 0px solid yellow;
