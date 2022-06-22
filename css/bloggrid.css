@@ -96,7 +96,7 @@ article{
     display: grid;
     grid-template-columns: min-content ;
 }
-@media (max-width: 320px) {
+@media (max-width: 600px) {
     article{
         grid-template-columns: min-content min-content;
         grid-template-rows: 1fr 20%;
