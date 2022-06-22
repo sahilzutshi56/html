@@ -197,7 +197,7 @@ nav{
     display: inline-block;
 }
 .projectimg{
-    width: 69px;
+    width: clamp(1em,69px,4em);
 }
 #projectpreview{
     width: 100%;
