@@ -22,7 +22,7 @@ section{
 }
 #blog{
     height: 100%;
-    border-left: 1px solid #000;
+    border-right: 1px solid #000;
     grid-column: 1 / 2;
     display: grid;
     grid-template-columns: 1fr;
