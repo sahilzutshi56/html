@@ -90,7 +90,9 @@ main{
     background-color: #000;
     color: #fff;
 }
-main>span{
+main>p{
+    line-height: 1.5em;
+    text-align: justify;
     background-color: #000;
     color: #fff;
 }
