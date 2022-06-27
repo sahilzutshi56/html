@@ -124,9 +124,11 @@ main{
     grid: auto-flow 1fr / repeat(auto-fit,minmax(350px , 1fr));
 }
 main>a{
+    padding:1% 2% 1% 2%;
     border: 1px solid #000;
     display: grid;
     grid-template-columns:repeat(2,1fr);
+    gap: 2%;
     justify-content: center;
     align-content: center;
     justify-content: center;
@@ -135,6 +137,7 @@ main>a{
 .projectimage{
     /* background-color: green; */
     display: grid;
+    row-gap: 0.2em;
     grid-template-columns: 1fr;
     justify-content: center;
     justify-items: center;
@@ -142,26 +145,33 @@ main>a{
     align-items: center;
 }
 .divimg{
-    width: clamp(9rem, 1vw + 9rem, 12rem);
+    width: clamp(6rem, 1vw + 6rem, 6rem);
     height: clamp(5rem, 1vw + 7rem, 5rem);
-    background-size: contain;
+    background-size:cover;
+    background-position: center center;
+    background-repeat: no-repeat;
 }
 .projectdesc{
     /* background-color: aqua; */
     display: grid;
     grid-template-columns: 1fr;
+    row-gap: 0.2em;
     justify-content: center;
     justify-items: center;
     align-content: center;
     align-items: center;
 }
 
-.projectdesc>div>div{
-    /* background-color: red; */
-    display: inline-block;
+.tagicon{
+    width: 100%;
+    display: grid;
+    grid-template:1fr/ repeat(auto-fit,minmax(max-content,40px));
 }
 .xfont{
+
     font-family: 'Courier New', Courier, monospace;
     font-size:16px ;
+    font-size:clamp(0.5rem, 1rem, 0.4rem + 1.2vh) ;
     color: #000;
+    text-decoration: none;
 }
