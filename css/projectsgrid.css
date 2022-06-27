@@ -135,7 +135,7 @@ main>a{
     align-items: center;
 }
 .projectimage{
-    /* background-color: green; */
+    /* background-color: green;; */
     display: grid;
     row-gap: 0.2em;
     grid-template-columns: 1fr;

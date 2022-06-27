@@ -85,7 +85,7 @@ header>img{
     display: grid;
     column-gap: 0.4em;
     row-gap: 0px;
-    grid-template-columns: min-content auto max-content;
+    grid-template-columns: min-content min-content min-content;
     justify-content: center;
     align-content: center;
     justify-items: center;
@@ -108,9 +108,9 @@ header>img{
         grid-template-columns: 1fr 1fr ;
         column-gap: 10%;
     }
-.artimg{
-    display: none;
-}
+    /* .artimg{
+        display: none;
+    } */
 }
 
 /* article:nth-of-type(odd) {
