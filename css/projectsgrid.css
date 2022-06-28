@@ -17,6 +17,9 @@ header{
     grid-template:repeat(2,1fr) / 1fr;
     grid-template-areas: "nav" "logo";
 }
+#contact{
+    display: none;
+}
 nav{
     grid-area: nav;
 }
