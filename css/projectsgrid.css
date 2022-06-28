@@ -17,9 +17,6 @@ header{
     grid-template:repeat(2,1fr) / 1fr;
     grid-template-areas: "nav" "logo";
 }
-#contact{
-    display: none;
-}
 nav{
     grid-area: nav;
 }
@@ -47,6 +44,7 @@ nav{
 }
 #contact{
     grid-area: contact;
+    color: #fff;
 }
 @media (min-width: 700px) {
 header{
@@ -125,7 +123,9 @@ main{
 }
 main>a{
     padding:1% 2% 1% 2%;
-    border: 1px solid #000;
+    margin: 1%;
+    box-shadow: 1px 2px #dbdbdb;
+    /* border: 1px solid #000; */
     display: grid;
     grid-template-columns:repeat(2,1fr);
     gap: 2%;
@@ -170,8 +170,8 @@ main>a{
 .xfont{
     /*  */
     font-family: 'Courier New', Courier, monospace;
-    font-size:16px ;
-    font-size:clamp(0.5rem, 1rem, 0.4rem + 1.2vh) ;
+    /* font-size:16px ; */
+    font-size:clamp(0.1rem, 0.7rem, 0.3rem + 1.2vh);
     color: #000;
     text-decoration: none;
 }
